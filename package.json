@@ -1,0 +1,30 @@
+{
+  "name": "colombo-gold-covering",
+  "version": "1.0.0",
+  "description": "Premium Jewellery E-Commerce Website & Admin Dashboard for Colombo Gold Covering",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "mern",
+    "jewellery",
+    "ecommerce",
+    "gold-covering",
+    "nextjs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Colombo Gold Covering Team",
+  "license": "ISC"
+}
+
